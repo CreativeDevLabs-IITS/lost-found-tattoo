@@ -74,7 +74,7 @@ export function Footer() {
       </div>
       <div className="border-t border-gold/20">
         <p className="mx-auto max-w-[90rem] px-4 py-6 text-xs uppercase tracking-[0.2em] text-bone-dim md:px-8">
-          © {site.name} <Year />
+          © {site.name} <Year initial={new Date().getFullYear()} />
         </p>
       </div>
     </footer>
